@@ -10,7 +10,7 @@ folder_to_check_contents = os.listdir(folder_to_check)
 
 # get md5 hash function. 
 # check for file binary, name can be different but as long content is same, it will be found
-# # Name must always be different in a folder anyway
+# Name must always be different in a folder anyway
 def file_md5(file):
     md5_hash = hashlib.md5()
     with open(file, "rb") as f:
