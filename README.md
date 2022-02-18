@@ -25,9 +25,10 @@ We have removed duplicates successfully. Any further tries will show no duplicat
 ![image](https://user-images.githubusercontent.com/39832806/154663510-28013475-d235-40cf-b3dd-9d3956dd4261.png)
 
 # UPDATE 1
-- added some flavour to the script
+- Uploaded sha256_duplicate_remover.py. Upgraded from md5 to sha256 for lesser chance of collision and deleting something wrongly.
+- Added some flavour to the script
 
 ![image](https://user-images.githubusercontent.com/39832806/154673247-4305b56e-ec97-4499-b4ac-bc53da912285.png)
 
-- upgraded from md5 to sha256 for lesser chance of collision and deleting something wrongly
+
 
