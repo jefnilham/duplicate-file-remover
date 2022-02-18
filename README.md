@@ -1,5 +1,6 @@
 # duplicate-remover
 ![image](https://user-images.githubusercontent.com/39832806/154673247-4305b56e-ec97-4499-b4ac-bc53da912285.png)
+
 Script to delete any duplicate files in a given folder. 
 
 # notes
