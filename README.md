@@ -9,7 +9,7 @@ Script to delete any duplicate files in a given folder.
 # demo
 upon running, users will be asked:
 
-![image](https://user-images.githubusercontent.com/39832806/154663607-95298bce-93de-4ede-b644-9cc7493eed39.png)
+![image](https://user-images.githubusercontent.com/39832806/154663786-27b0aa41-a325-45ff-8a07-d65ed6d73ed0.png)
 
 in this example, a demo folder was created with only 2 original files, 'same content.txt' and 'different content.txt' along with their copies and other folders:
 
