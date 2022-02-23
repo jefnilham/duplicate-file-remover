@@ -13,7 +13,7 @@ R     E     M     O     V     E     R
 
 """)
 
-print("Enter filepath to sort folder by file type: ")
+print("Enter filepath to remove any duplicates within: ")
 
 folder_to_check = input("")
 
