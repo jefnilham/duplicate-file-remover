@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+# duplicate-remover
+![image](https://user-images.githubusercontent.com/39832806/155253240-c13cbc51-1fba-4082-9967-ab8eb2ada2cb.png)
 
-You can use the [editor on GitHub](https://github.com/jefnilham/duplicate-file-remover/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Script to delete any duplicate files in a given folder. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# notes
+- script ignores subfolders within folder and only considers files
+- script compares md5 hashes of files in a folder
+- any similar hashed file will be deleted, leaving first instance only
 
-### Markdown
+# demo
+upon running, users will be asked:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![image](https://user-images.githubusercontent.com/39832806/154663786-27b0aa41-a325-45ff-8a07-d65ed6d73ed0.png)
 
-```markdown
-Syntax highlighted code block
+in this example, a demo folder was created with only 2 original files, 'same content.txt' and 'different content.txt' along with their copies and other folders:
 
-# Header 1
-## Header 2
-### Header 3
+![image](https://user-images.githubusercontent.com/39832806/154663192-349dc573-5a84-4318-91ac-480408574eff.png)
 
-- Bulleted
-- List
+after inputting chosen folder by supplying its filepath, the script will show the files it deletes as they have the same md5 hash. Note that the script will keep the first instance of the file that its hash it stores i.e. name of the original file might be different, but the contents will still be the same nonetheless:
 
-1. Numbered
-2. List
+![image](https://user-images.githubusercontent.com/39832806/154663408-54312fe9-71c7-4640-9a4d-cfc5788688b0.png)
+![image](https://user-images.githubusercontent.com/39832806/154664261-c638395d-542e-4529-9eac-01089be9eb67.png)
 
-**Bold** and _Italic_ and `Code` text
+We have removed duplicates successfully. Any further tries will show no duplicates found:
 
-[Link](url) and ![Image](src)
-```
+![image](https://user-images.githubusercontent.com/39832806/154663510-28013475-d235-40cf-b3dd-9d3956dd4261.png)
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+# UPDATE 1
+- Uploaded sha256_duplicate_remover.py. Upgraded from md5 to sha256 for lesser chance of collision and deleting something wrongly.
+- Added some imagery to the script
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jefnilham/duplicate-file-remover/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
