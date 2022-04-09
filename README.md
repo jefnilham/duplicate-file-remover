@@ -27,8 +27,13 @@ In this demo setup, a demo folder was created with only 2 original files, 'same 
 ![image](https://user-images.githubusercontent.com/39832806/162561329-7f549ece-a44f-4f3b-ad1f-550bfda95dcc.png)
 
 After inputting chosen folder by supplying its filepath, the script will show the files it deletes as they have the same md5 hash. Note that the script will keep the first instance of the file that its hash it stores i.e. name of the original file might be different, but the contents will still be the same nonetheless:
-
-![image](https://user-images.githubusercontent.com/39832806/154663408-54312fe9-71c7-4640-9a4d-cfc5788688b0.png)
+```
+Enter filepath to sort folder by file type:C:\Users\Music\test_desktop
+Removing duplicates: different content - Copy.txt
+Removing duplicates: different content.txt
+Removing duplicates: same content.txt
+3 file duplicates deleted in C:\Users\Music\test_desktop
+```
 ![image](https://user-images.githubusercontent.com/39832806/154664261-c638395d-542e-4529-9eac-01089be9eb67.png)
 
 We have removed duplicates successfully. Any further tries on that same folder will show no duplicates found:
