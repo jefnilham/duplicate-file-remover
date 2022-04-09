@@ -10,16 +10,14 @@ Delete all duplicate files in a given folder.
 * [Update](#update)
 
 # General info
-It is difficult to remove existing duplicates in a folder, especially on machines which have been around longer where folders tend to get bloated with files. I made this to automate the task of removing duplicates safely based on file hash.
+It is difficult to remove existing duplicates in a folder, especially on machines which have been around longer where folders tend to get bloated with files. I made this to automate the task of removing duplicates safely based on file hash. The user inputs the chosen folder and the script iterates through and check for files, ignoring subfolders. The hash function is run for every file and each file hash is stored in a list. Therefore, the script looks through the folder and removes anything that is not the first stored hash instance i.e. any second or more instances of the file is removed.
 
 ## Technologies
+- Hashlib to generate file hashes. Chosen algorithms are MD5 and SHA256
+- Miscellaneous operating system interfaces for directory traverals and file deletions
 
 ## Setup
-
-# notes
-- script ignores subfolders within folder and only considers files
-- script compares md5 hashes of files in a folder
-- any similar hashed file will be deleted, leaving first instance only
+Save the raw code and run the python script.
 
 # demo
 upon running, users will be asked:
@@ -43,11 +41,6 @@ We have removed duplicates successfully. Any further tries will show no duplicat
 - Uploaded sha256_duplicate_remover.py. Upgraded from md5 to sha256 for lesser chance of collision and deleting something wrongly.
 - Added some imagery to the script
 	
-## Technologies
-Project is created with:
-* Webscraping with Selenium via Chrome webdriver
-* Pandas for data management and display
-* Variable handling
 	
 ## Setup
 Install the required modules, then run the project. I'll show my search as follows.
