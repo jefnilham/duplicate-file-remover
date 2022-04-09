@@ -9,10 +9,10 @@ Delete all duplicate files in a given folder.
 * [Setup](#setup)
 * [Update](#update)
 
-## General info
+# General info
 It is difficult to remove existing duplicates in a folder, especially on machines which have been around longer where folders tend to get bloated with files. I made this to automate the task of removing duplicates safely based on file hash.
 
-## Technologie
+# Technologies
 
 # Setup
 
