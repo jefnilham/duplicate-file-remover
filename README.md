@@ -1,7 +1,6 @@
 # duplicate-file-remover
-https://jefnilham.github.io/duplicate-file-remover/
-
 ![image](https://user-images.githubusercontent.com/39832806/155253240-c13cbc51-1fba-4082-9967-ab8eb2ada2cb.png)
+https://jefnilham.github.io/duplicate-file-remover/
 
 Script to delete any duplicate files in a given folder. 
 
