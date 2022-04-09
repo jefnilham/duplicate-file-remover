@@ -10,7 +10,7 @@ Delete all duplicate files in a given folder.
 * [Update](#update)
 
 ## General info
-Duplicate files are a hassle to remove from our machines. I made this to help myself remove duplicates safely based on hash.
+It is difficult to remove existing duplicates in a folder, especially on machines which have been around longer where folders tend to get bloated with files. I made this to automate the task of removing duplicates safely based on file hash.
 
 ## Technologie
 
