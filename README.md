@@ -34,7 +34,7 @@ Removing duplicates: different content.txt
 Removing duplicates: same content.txt
 3 file duplicates deleted in C:\Users\Music\test_desktop
 ```
-![image](https://user-images.githubusercontent.com/39832806/154664261-c638395d-542e-4529-9eac-01089be9eb67.png)
+![image](https://user-images.githubusercontent.com/39832806/162561431-1ecd0201-0aa1-4402-93ed-308c879a0dd1.png)
 
 We have removed duplicates successfully. Any further tries on that same folder will show no duplicates found:
 ```
