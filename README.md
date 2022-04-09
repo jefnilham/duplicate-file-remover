@@ -24,7 +24,7 @@ Enter filepath to sort folder by file type: C:\Users\Music\test_desktop
 
 In this demo setup, a demo folder was created with only 2 original files, 'same content.txt' and 'different content.txt' along with their copies and other folders:
 
-![image](https://user-images.githubusercontent.com/39832806/154663192-349dc573-5a84-4318-91ac-480408574eff.png)
+![image](https://user-images.githubusercontent.com/39832806/162561329-7f549ece-a44f-4f3b-ad1f-550bfda95dcc.png)
 
 After inputting chosen folder by supplying its filepath, the script will show the files it deletes as they have the same md5 hash. Note that the script will keep the first instance of the file that its hash it stores i.e. name of the original file might be different, but the contents will still be the same nonetheless:
 
