@@ -18,6 +18,9 @@ It is difficult to remove existing duplicates in a folder, especially on machine
 
 ## Setup
 Save the raw code and run the python script.
+```
+Enter filepath to sort folder by file type:
+```
 
 # demo
 upon running, users will be asked:
