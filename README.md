@@ -9,6 +9,13 @@ Delete all duplicate files in a given folder.
 * [Setup](#setup)
 * [Update](#update)
 
+## General info
+Duplicate files are a hassle to remove from our machines. I made this to help myself remove duplicates safely based on hash.
+
+## Technologie
+
+# Setup
+
 # notes
 - script ignores subfolders within folder and only considers files
 - script compares md5 hashes of files in a folder
@@ -36,16 +43,6 @@ We have removed duplicates successfully. Any further tries will show no duplicat
 - Uploaded sha256_duplicate_remover.py. Upgraded from md5 to sha256 for lesser chance of collision and deleting something wrongly.
 - Added some imagery to the script
 
-
-
-# Lazada-VS-Shopee 
-Compare a search item based on popularity on both platforms
-
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Update](#update)
 
 ## General info
 Its common to check on multiple platforms before making an online purchase. I made this for myself for items I have already purchased before (recurring purchases like coffee) as an efficient way to do a quick lookup on both platforms. I ranked the output based on popularity as I find that metric to be what I would use for this use case. On Lazada, popularity is based on ratings while on Shopee, it is based on number of items sold. Selenium was used to webscrape selected elements into resepctive lists. Pandas was used to compile all data and add a ranking system for the final output.
