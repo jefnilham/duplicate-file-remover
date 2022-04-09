@@ -3,6 +3,12 @@
 
 Delete all duplicate files in a given folder. 
 
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Update](#update)
+
 # notes
 - script ignores subfolders within folder and only considers files
 - script compares md5 hashes of files in a folder
