@@ -17,9 +17,9 @@ It is difficult to remove existing duplicates in a folder, especially on machine
 - Miscellaneous operating system interfaces for directory traverals and file deletions
 
 ## Setup
-Save the raw code and run the python script.
+Save the raw code and run the python script. The following is a demo setup with this folder prepared:
 ```
-Enter filepath to sort folder by file type:
+Enter filepath to sort folder by file type: C:\Users\Music\test_desktop
 ```
 
 In this demo setup, a demo folder was created with only 2 original files, 'same content.txt' and 'different content.txt' along with their copies and other folders:
